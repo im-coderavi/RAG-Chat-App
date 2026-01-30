@@ -273,3 +273,7 @@ Built with:
 ---
 
 **Made with ❤️ by Avishek Giri**
+
+---
+
+*Last Updated: January 2026*
