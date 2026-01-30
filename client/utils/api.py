@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "http://localhost:8000"
+from config import API_URL
 TIMEOUT_SHORT = 10  # For quick operations like listing docs
 TIMEOUT_LONG = 60   # For LLM operations that take time
 

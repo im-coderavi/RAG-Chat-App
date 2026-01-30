@@ -111,3 +111,5 @@
 2026-01-30 14:23:21 - 🧩 Split Avishek_Giri_Cv_2026.pdf into 4 chunks
 2026-01-30 14:23:21 - 🔍 Embedding 4 chunks...
 2026-01-30 14:23:22 - ✅ SUCCESS: Saved 4 chunks to ./chroma_db
+2026-01-30 15:40:08 - 🗑️ Deleted 4 chunks for Avishek_Giri_Cv_2026.pdf from DB
+2026-01-30 15:40:09 - 🗑️ Deleted file Avishek_Giri_Cv_2026.pdf from disk
