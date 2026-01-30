@@ -1,0 +1,138 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Apply Font & Global Text Color for Dark Mode */
+html,
+body,
+[class*="css"] {
+    font-family: 'Inter', sans-serif;
+    color: #fafafa !important;
+    /* Light Text on Dark BG */
+}
+
+/* Hide Only Footer */
+footer {
+    visibility: hidden;
+}
+
+/* Hero Section - Purple Gradient */
+.hero-container {
+    padding: 2rem;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: white !important;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Chat Input Styling */
+.stChatInput {
+    border-radius: 20px !important;
+}
+
+.stChatInput input {
+    background-color: #262730 !important;
+    color: #fafafa !important;
+    border: 1px solid #444 !important;
+}
+
+/* Chat Messages */
+/* User Message - Dark Blueish */
+[data-testid="stChatMessage"]:nth-child(odd) {
+    background-color: #1e1e2e;
+    border-radius: 12px;
+    padding: 12px;
+    border-left: 3px solid #667eea;
+}
+
+[data-testid="stChatMessage"]:nth-child(odd) * {
+    color: #fafafa !important;
+}
+
+/* Assistant Message - Slightly Lighter Dark */
+[data-testid="stChatMessage"]:nth-child(even) {
+    background-color: #262730;
+    border-radius: 12px;
+    padding: 12px;
+    border-left: 3px solid #764ba2;
+}
+
+[data-testid="stChatMessage"]:nth-child(even) * {
+    color: #e0e0e0 !important;
+}
+
+/* Sidebar - Deep Dark */
+[data-testid="stSidebar"] {
+    background-color: #0E1117 !important;
+    border-right: 1px solid #333;
+}
+
+[data-testid="stSidebar"] * {
+    color: #fafafa !important;
+}
+
+/* Ensure Sidebar Inputs Visible */
+[data-testid="stSidebar"] input,
+[data-testid="stSidebar"] textarea {
+    background-color: #1e1e2e !important;
+    color: #fafafa !important;
+    border: 1px solid #444 !important;
+}
+
+/* Buttons - Purple Accent */
+.stButton>button {
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    background-color: #667eea !important;
+    color: white !important;
+    border: none;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    background-color: #764ba2 !important;
+}
+
+/* File Uploader */
+[data-testid="stFileUploader"] {
+    background-color: #1e1e2e;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px dashed #667eea;
+}
+
+[data-testid="stFileUploader"] * {
+    color: #fafafa !important;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    background-color: #1e1e2e !important;
+    color: #fafafa !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 1.8rem;
+    }
+
+    .hero-container {
+        padding: 1.5rem;
+    }
+}

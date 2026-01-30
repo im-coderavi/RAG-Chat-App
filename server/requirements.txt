@@ -1,0 +1,43 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# LangChain & Ecosystem
+langchain
+langchain-community
+langchain-core
+langchain-groq
+langchain-huggingface
+
+# Vectorstore
+chromadb
+
+# Embeddings
+sentence-transformers
+
+# PDF Parsing
+pypdf
+
+# Environment Variables
+python-dotenv
+
+# Typing & Utilities
+pydantic
+requests
+
+# Logging
+loguru
+
+# File Uploads
+aiofiles
+
+# Process
+tqdm
+# OCR & File Support
+rapidocr-onnxruntime
+onnxruntime
+pandas
+openpyxl
+pillow
+pymupdf

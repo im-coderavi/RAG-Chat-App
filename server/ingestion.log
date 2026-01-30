@@ -1,0 +1,113 @@
+2026-01-30 12:04:00 - 🚀 Starting ingestion for 1 files
+2026-01-30 12:04:00 - 💾 Saved file: uploaded_pdfs\swag9_cv.pdf
+2026-01-30 12:04:00 - 📄 Processing PDF: uploaded_pdfs\swag9_cv.pdf
+2026-01-30 12:04:05 - ⚠️ ERROR: uploaded_pdfs\swag9_cv.pdf appears empty or scanned (Text length: 0). PyPDF cannot read images. Please use OCR or a text-based PDF.
+2026-01-30 12:04:05 - ⚠️ FAIL: No valid text extracted. Database not updated.
+2026-01-30 12:23:50 - 🚀 Starting ingestion for 1 files
+2026-01-30 12:23:50 - 💾 Saved file: uploaded_pdfs\test_image.png
+2026-01-30 12:23:52 - 🖼️ OCR Success for Image: uploaded_pdfs\test_image.png
+2026-01-30 12:23:52 - 🧩 Split test_image.png into 1 chunks
+2026-01-30 12:23:52 - 🔍 Embedding 1 chunks...
+2026-01-30 12:23:52 - ✅ SUCCESS: Saved 1 chunks to ./chroma_db
+2026-01-30 12:23:52 - 🚀 Starting ingestion for 1 files
+2026-01-30 12:23:52 - 💾 Saved file: uploaded_pdfs\swag9_cv.pdf
+2026-01-30 12:23:54 - ⚠️ Low text detected (0 chars). Attempting OCR on PDF...
+2026-01-30 12:23:54 - ❌ Error processing PDF uploaded_pdfs\swag9_cv.pdf: cannot identify image file uploaded_pdfs\swag9_cv.pdf
+2026-01-30 12:23:54 - ⚠️ FAIL: No valid text extracted from any file.
+2026-01-30 12:23:54 - 🚀 Starting ingestion for 1 files
+2026-01-30 12:23:54 - 💾 Saved file: uploaded_pdfs\swag9_cv.pdf
+2026-01-30 12:23:55 - ⚠️ Low text detected (0 chars). Attempting OCR on PDF...
+2026-01-30 12:23:55 - ❌ Error processing PDF uploaded_pdfs\swag9_cv.pdf: cannot identify image file uploaded_pdfs\swag9_cv.pdf
+2026-01-30 12:23:55 - ⚠️ FAIL: No valid text extracted from any file.
+2026-01-30 12:32:18 - 🗑️ Deleted 8 chunks for Avishek_Giri_Cv_2026.pdf from DB
+2026-01-30 12:32:18 - ⚠️ File Avishek_Giri_Cv_2026.pdf not found on disk
+2026-01-30 12:32:19 - 🗑️ Deleted 6 chunks for Avishek Giri CV 2K26.pdf from DB
+2026-01-30 12:32:19 - ⚠️ File Avishek Giri CV 2K26.pdf not found on disk
+2026-01-30 12:32:20 - 🗑️ Deleted 1 chunks for test_image.png from DB
+2026-01-30 12:32:20 - 🗑️ Deleted file test_image.png from disk
+2026-01-30 12:33:22 - 🚀 Starting ingestion for 1 files
+2026-01-30 12:33:22 - 💾 Saved file: uploaded_pdfs\swag9_cv.pdf
+2026-01-30 12:33:23 - ⚠️ Low text detected (0 chars). Attempting OCR on PDF...
+2026-01-30 12:33:25 -    - Page 1: OCR'd 0 images
+2026-01-30 12:33:25 - ❌ OCR found no text in images of uploaded_pdfs\swag9_cv.pdf
+2026-01-30 12:33:25 - ⚠️ FAIL: No valid text extracted from any file.
+2026-01-30 12:53:10 - 🚀 Starting ingestion for 1 files
+2026-01-30 12:53:10 - 💾 Saved file: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 12:53:10 - 📄 Processed Text PDF: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 12:53:10 - 🧩 Split Avishek_Giri_Cv_2026.pdf into 4 chunks
+2026-01-30 12:53:10 - 🔍 Embedding 4 chunks...
+2026-01-30 12:53:11 - ✅ SUCCESS: Saved 4 chunks to ./chroma_db
+2026-01-30 12:53:16 - 🚀 Starting ingestion for 1 files
+2026-01-30 12:53:16 - 💾 Saved file: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 12:53:17 - 📄 Processed Text PDF: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 12:53:17 - 🧩 Split Avishek_Giri_Cv_2026.pdf into 4 chunks
+2026-01-30 12:53:17 - 🔍 Embedding 4 chunks...
+2026-01-30 12:53:17 - ✅ SUCCESS: Saved 4 chunks to ./chroma_db
+2026-01-30 12:53:25 - 🚀 Starting ingestion for 2 files
+2026-01-30 12:53:25 - 💾 Saved file: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 12:53:25 - 💾 Saved file: uploaded_pdfs\swag9_cv.pdf
+2026-01-30 12:53:25 - 📄 Processed Text PDF: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 12:53:25 - 🧩 Split Avishek_Giri_Cv_2026.pdf into 4 chunks
+2026-01-30 12:53:27 - ⚠️ Low text detected (0 chars). Rasterizing PDF for OCR...
+2026-01-30 12:53:57 -    - Page 1: OCR Success
+2026-01-30 12:53:57 - ✅ OCR Extracted 2497 chars from scanned PDF
+2026-01-30 12:53:57 - 🧩 Split swag9_cv.pdf into 3 chunks
+2026-01-30 12:53:57 - 🔍 Embedding 7 chunks...
+2026-01-30 12:53:58 - ✅ SUCCESS: Saved 7 chunks to ./chroma_db
+2026-01-30 12:58:19 - 🗑️ Deleted 12 chunks for Avishek_Giri_Cv_2026.pdf from DB
+2026-01-30 12:58:19 - 🗑️ Deleted file Avishek_Giri_Cv_2026.pdf from disk
+2026-01-30 12:58:19 - 🗑️ Deleted 3 chunks for swag9_cv.pdf from DB
+2026-01-30 12:58:19 - 🗑️ Deleted file swag9_cv.pdf from disk
+2026-01-30 12:58:37 - 🚀 Starting ingestion for 1 files
+2026-01-30 12:58:37 - 💾 Saved file: uploaded_pdfs\Avishek Giri CV 2K26.pdf
+2026-01-30 12:58:38 - 📄 Processed Text PDF: uploaded_pdfs\Avishek Giri CV 2K26.pdf
+2026-01-30 12:58:38 - 🧩 Split Avishek Giri CV 2K26.pdf into 6 chunks
+2026-01-30 12:58:38 - 🔍 Embedding 6 chunks...
+2026-01-30 12:58:38 - ✅ SUCCESS: Saved 6 chunks to ./chroma_db
+2026-01-30 13:04:25 - 🗑️ Deleted 6 chunks for Avishek Giri CV 2K26.pdf from DB
+2026-01-30 13:04:25 - 🗑️ Deleted file Avishek Giri CV 2K26.pdf from disk
+2026-01-30 13:04:38 - 🚀 Starting ingestion for 1 files
+2026-01-30 13:04:38 - 💾 Saved file: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 13:04:38 - 📄 Processed Text PDF: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 13:04:38 - 🧩 Split Avishek_Giri_Cv_2026.pdf into 4 chunks
+2026-01-30 13:04:38 - 🔍 Embedding 4 chunks...
+2026-01-30 13:04:39 - ✅ SUCCESS: Saved 4 chunks to ./chroma_db
+2026-01-30 13:06:54 - 🚀 Starting ingestion for 2 files
+2026-01-30 13:06:54 - 💾 Saved file: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 13:06:54 - 💾 Saved file: uploaded_pdfs\swag9_cv.pdf
+2026-01-30 13:06:54 - 📄 Processed Text PDF: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 13:06:54 - 🧩 Split Avishek_Giri_Cv_2026.pdf into 4 chunks
+2026-01-30 13:06:55 - ⚠️ Low text detected (0 chars). Rasterizing PDF for OCR...
+2026-01-30 13:07:22 -    - Page 1: OCR Success
+2026-01-30 13:07:22 - ✅ OCR Extracted 2497 chars from scanned PDF
+2026-01-30 13:07:22 - 🧩 Split swag9_cv.pdf into 3 chunks
+2026-01-30 13:07:22 - 🔍 Embedding 7 chunks...
+2026-01-30 13:07:23 - ✅ SUCCESS: Saved 7 chunks to ./chroma_db
+2026-01-30 13:09:20 - 🗑️ Deleted 3 chunks for swag9_cv.pdf from DB
+2026-01-30 13:09:20 - 🗑️ Deleted file swag9_cv.pdf from disk
+2026-01-30 13:09:21 - 🗑️ Deleted 8 chunks for Avishek_Giri_Cv_2026.pdf from DB
+2026-01-30 13:09:21 - 🗑️ Deleted file Avishek_Giri_Cv_2026.pdf from disk
+2026-01-30 13:27:19 - 🚀 Starting ingestion for 1 files
+2026-01-30 13:27:19 - 💾 Saved file: uploaded_pdfs\swag9_cv.pdf
+2026-01-30 13:27:22 - ⚠️ Low text detected (0 chars). Rasterizing PDF for OCR...
+2026-01-30 13:27:53 -    - Page 1: OCR Success
+2026-01-30 13:27:53 - ✅ OCR Extracted 2497 chars from scanned PDF
+2026-01-30 13:27:53 - 🧩 Split swag9_cv.pdf into 3 chunks
+2026-01-30 13:27:53 - 🔍 Embedding 3 chunks...
+2026-01-30 13:27:55 - ✅ SUCCESS: Saved 3 chunks to ./chroma_db
+2026-01-30 13:29:45 - 🚀 Starting ingestion for 1 files
+2026-01-30 13:29:45 - 💾 Saved file: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 13:29:45 - 📄 Processed Text PDF: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 13:29:45 - 🧩 Split Avishek_Giri_Cv_2026.pdf into 4 chunks
+2026-01-30 13:29:45 - 🔍 Embedding 4 chunks...
+2026-01-30 13:29:45 - ✅ SUCCESS: Saved 4 chunks to ./chroma_db
+2026-01-30 13:29:54 - 🗑️ Deleted 3 chunks for swag9_cv.pdf from DB
+2026-01-30 13:29:54 - 🗑️ Deleted file swag9_cv.pdf from disk
+2026-01-30 14:22:48 - 🗑️ Deleted 4 chunks for Avishek_Giri_Cv_2026.pdf from DB
+2026-01-30 14:22:48 - 🗑️ Deleted file Avishek_Giri_Cv_2026.pdf from disk
+2026-01-30 14:23:21 - 🚀 Starting ingestion for 1 files
+2026-01-30 14:23:21 - 💾 Saved file: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 14:23:21 - 📄 Processed Text PDF: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-30 14:23:21 - 🧩 Split Avishek_Giri_Cv_2026.pdf into 4 chunks
+2026-01-30 14:23:21 - 🔍 Embedding 4 chunks...
+2026-01-30 14:23:22 - ✅ SUCCESS: Saved 4 chunks to ./chroma_db
