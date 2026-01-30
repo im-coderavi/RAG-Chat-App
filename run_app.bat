@@ -1,0 +1,13 @@
+@echo off
+echo Starting RagBot 2.0...
+
+echo Starting Backend...
+start "RagBot Backend" cmd /k "cd server & python -m uvicorn main:app --host 127.0.0.1 --port 8000 --reload"
+
+echo Waiting for backend to initialize...
+timeout /t 5
+
+echo Starting Frontend...
+start "RagBot Frontend" cmd /k "cd client & streamlit run app.py"
+
+echo Done! Both servers are running.

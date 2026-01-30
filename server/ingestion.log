@@ -113,3 +113,14 @@
 2026-01-30 14:23:22 - ✅ SUCCESS: Saved 4 chunks to ./chroma_db
 2026-01-30 15:40:08 - 🗑️ Deleted 4 chunks for Avishek_Giri_Cv_2026.pdf from DB
 2026-01-30 15:40:09 - 🗑️ Deleted file Avishek_Giri_Cv_2026.pdf from disk
+2026-01-30 15:42:31 - 🚀 Starting ingestion for 1 files
+2026-01-30 15:42:31 - 💾 Saved file: uploaded_pdfs\swag9_cv.pdf
+2026-01-30 15:42:54 - ⚠️ Low text detected (0 chars). Rasterizing PDF for OCR...
+2026-01-31 00:00:16 - 🚀 Starting ingestion for 1 files
+2026-01-31 00:00:16 - 💾 Saved file: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-31 00:00:18 - 📄 Processed Text PDF: uploaded_pdfs\Avishek_Giri_Cv_2026.pdf
+2026-01-31 00:00:18 - 🧩 Split Avishek_Giri_Cv_2026.pdf into 4 chunks
+2026-01-31 00:00:18 - 🔍 Embedding 4 chunks...
+2026-01-31 00:00:20 - ✅ SUCCESS: Saved 4 chunks to ./chroma_db
+2026-01-31 00:06:38 - 🗑️ Deleted 4 chunks for Avishek_Giri_Cv_2026.pdf from DB
+2026-01-31 00:06:38 - 🗑️ Deleted file Avishek_Giri_Cv_2026.pdf from disk

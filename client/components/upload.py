@@ -27,8 +27,8 @@ def render_uploader():
                     st.sidebar.error(f"❌ Upload failed (Status: {response.status_code})")
             except requests.exceptions.Timeout:
                 st.sidebar.error("⏱️ Upload timed out. Try smaller files or restart the server.")
-            except requests.exceptions.ConnectionError:
-                st.sidebar.error("🔌 Cannot connect to server. Is the backend running?")
+            except requests.exceptions.ConnectionError as e:
+                st.sidebar.error(f"🔌 Cannot connect to server. Details: {e}")
             except Exception as e:
                 st.sidebar.error(f"❌ Error: {str(e)[:50]}")
 

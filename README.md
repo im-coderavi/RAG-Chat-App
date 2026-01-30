@@ -184,6 +184,9 @@ streamlit run app.py
 
 The app will open at `http://localhost:8501`.
 
+### 🚀 Easy Start (Windows)
+Simply double-click `run_app.bat` in the project root folder to start both the backend and frontend automatically.
+
 ---
 
 ## 📖 Usage Guide
